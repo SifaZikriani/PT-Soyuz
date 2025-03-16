@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+    <link rel="icon" href="logo smartic.jpg">
+</head>
+<body>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr bgcolor="yellow">
+                <th>No</th>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Alamat</th>
+                <th>Jenis Kelamin</th>
+                <th>Agama</th>
+                <th>Hobi</th>
+                <th>Instagram</th>
+                <th>Logo Universitas</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Sifa Zikriani</td>
+                <td>sifazikriani@gmail.com</td>
+                <td>JL. M.A. Turungku</td>
+                <td bgcolor="pink">Perempuan</td>
+                <td rowspan="3">Islam</td>
+                <td>
+                    <ol>
+                        <li>Menari</li>
+                        <li>Hiking</li>
+                    </ol>
+                </td>
+                <td><a href="https://www.instagram.com/sfazkrni_" target="_blank">@sfazkrni_</a></td>
+                <td rowspan="5"><img src="UNTAD.jpeg" alt=""></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Elika</td>
+                <td>elikakhardalia@gmail.com</td>
+            <td>Huntap Tondo</td>
+            <td bgcolor="pink">Perempuan</td>
+            <td><ol>
+                <li>Menonton Film</li>
+                <li>Bulutangkis</li>
+            </ol></td>
+            <td><a href="https://www.instagram.com/elikha__/" target="_blank">@elikha__</a></td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Imang</td>
+            <td>haerulilman@gmail.com</td>
+            <td>Poboya</td>
+            <td bgcolor="cyan">Laki-laki</td>
+            <td><ol>
+                <li>Menonton Film</li>
+                <li>Main Game</li>
+            </ol></td>
+            <td><a href="https://www.instagram.com/hairul.ilman/" target="_blank">@haerul.ilman</a></td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Angga</td>
+            <td>anggragiovano@gmail.com</td>
+            <td>Lasoani</td>
+            <td bgcolor="cyan">Laki-laki</td>
+            <td>Kristen</td>
+            <td><ol>
+                <li>Main Game</li>
+                <li>Bulutangkis</li>
+            </ol></td>
+            <td><a href="https://www.instagram.com/giovano.anggra/" target="_blank">@giovano.anggra</a></td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Dirli</td>
+            <td>dirlidwiputra@gmail.com</td>
+            <td>Kawatuna</td>
+            <td bgcolor="cyan">Laki-laki</td>
+            <td>Islam</td>
+            <td><ol>
+                <li>Main Game</li>
+                <li>Dengar Musik</li>
+            </ol></td>
+            <td><a href="https://www.instagram.com/dirlily_dwip/" target="_blank">@dirlily_dwip</a></td>
+        </tr>
+    </thead>
+    </table>
+    <h1>Formulir Pendaftaran</h1>
+    <label for="nama">Nama:</label>
+    <br>
+    <input type="text" name="nama">
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="text" name="email">
+    <br>
+    <label for="message">Alamat:</label> <br>
+    <textarea name="message" id="message" rows="5" cols="50"></textarea>
+    <br>
+    <label for="radio">Jenis Kelamin:</label>
+    <br>
+    <input type="radio" id="Laki-laki" name="Jenis Kelamin" value="Laki-laki">
+    <label for="Laki-laki">Laki-laki</label>
+    <input type="radio" id="Perempuan" name="Jenis Kelamin" value="Perempuan">
+    <label for="Perempuan">Perempuan</label>
+    <br>
+    <label for="agama">Agama:</label>
+    <br>
+    <select name="agama" id="agama">
+    <option value="1">Islam</option>
+    <option value="2">Kristen</option>
+    <option value="3">Katolik</option>
+    <option value="4">Buddha</option>
+    <option value="5">Konghuchu</option>
+    </select>
+    <br>
+    <label for="checkbox">Hobi:</label>
+    <br>
+    <input type="checkbox" id="Bultang" name="Hobi" value="Bultang">
+    <label for="Bultang">Bulutangkis</label>
+    <input type="checkbox" id="Main Game" name="Hobi" value="Main Game">
+    <label for="Main Game">Main Game</label>
+    <input type="checkbox" id="Film" name="Hobi" value="Film">
+    <label for="Film">Menonton Film</label>
+    <input type="checkbox" id="Musik" name="Hobi" value="Musik">
+     <label for="Musik">Dengar Musik</label>
+    <br>
+    <button type="button" autofocus>Kirim</button>
+</body>
+</html>

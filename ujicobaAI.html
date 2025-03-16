@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: yellow;
+        }
+        .jenis-laki {
+            background-color: cyan;
+        }
+        .jenis-perempuan {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Alamat</th>
+            <th>Jenis Kelamin</th>
+            <th>Agama</th>
+            <th>Hobi</th>
+            <th>Instagram</th>
+            <th>Logo Universitas</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Muje</td>
+            <td>muje@gmail.com</td>
+            <td>Jl. Pemuda No. 1</td>
+            <td class="jenis-laki">Laki-laki</td>
+            <td></td>
+            <td>1. Membaca <br> 2. Menulis</td>
+            <td><a href="#">@mejai_soul</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Avav</td>
+            <td>avav@gmail.com</td>
+            <td>Jl. Pemuda No. 2</td>
+            <td class="jenis-laki">Laki-laki</td>
+            <td>Islam</td>
+            <td>1. Membaca <br> 2. Menggambar</td>
+            <td><a href="#">@avav_sam</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Via</td>
+            <td>via@gmail.com</td>
+            <td>Jl. Pemuda No. 3</td>
+            <td class="jenis-perempuan">Perempuan</td>
+            <td></td>
+            <td>1. Membaca</td>
+            <td><a href="#">@_viaramadhani</a></td>
+            <td><img src="logo_universitas.png" alt="Logo Universitas" width="50"></td>
+        </tr>
+    </table>
+
+    <h2>Formulir Pendaftaran</h2>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat"></textarea><br><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="laki" name="gender" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="agama">Agama:</label>
+        <select id="agama" name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Lainnya">Lainnya</option>
+        </select><br><br>
+
+        <label>Hobi:</label>
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+        <label for="membaca">Membaca</label>
+        <input type="checkbox" id="menulis" name="hobi" value="Menulis">
+        <label for="menulis">Menulis</label>
+        <input type="checkbox" id="menggambar" name="hobi" value="Menggambar">
+        <label for="menggambar">Menggambar</label><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>
+```
